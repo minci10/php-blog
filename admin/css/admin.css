@@ -1,0 +1,225 @@
+ ul li {
+	border: 1px solid #ddd;
+	padding:10px;
+	margin:10px;
+	list-style:none;
+	font-size : 20px;
+    border-radius: 2px;
+     
+   
+    
+}
+
+.kategoriler ul li {
+    border: 1px solid #ddd;
+	padding:15px;
+	margin:10px;
+	list-style:none;
+	font-size : 20px;
+    border-radius: 2px;
+box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.75);
+    background: #e6e5f4;
+    
+      
+     font-family: Georgia, serif;
+font-size: 20px;
+letter-spacing: 1.2px;
+word-spacing: 2px;
+font-style: italic;
+   text-shadow: 1px 1px 3px rgba(28,110,164,0.72);
+}
+
+
+
+.kategoriler ul li ul li {
+	background : #d6a9fa;
+    min-width: 750px;
+}
+
+.kategoriler ul li ul li ul li {
+	background : #728fcc;
+    min-width: 500px;
+}
+
+.kategoriler ul a {
+	text-decoration:none;
+	color:blue;
+}
+
+.kategoriler ul a:hover {
+	color:maroon;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .2px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.50);
+}
+
+.panel {
+	width:350px;
+	height:400px;
+	position:relative;
+	margin:auto;
+}
+
+.panel img {
+	position:relative;
+	left:35px;
+	margin:20px;
+}
+
+
+.panel tr td {
+	font-size:20px;
+	letter-spacing:1.3px;
+	 text-shadow: 1px 1px 5px black;
+	
+
+}
+
+
+.panel tr td input {
+	border: 1px solid black;
+	margin:5px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.8);
+	
+}
+
+input.gonder{
+	 color: #224059;
+    background-color: #b5c9e2;
+    border-top: 2px #cce3ff solid;
+    border-left: 2px #cce3ff solid;
+    border-bottom: 2px #31557f solid;
+    border-right: 2px #31557f solid;
+    font:bold 12px Arial, Helvetica, sans-serif;
+	width:80px;
+	height:30px;
+	border-radius: 3px 3px 3px 3px;
+
+}
+
+input.gonder:hover {
+	background-color : #468499;
+}
+
+body {
+	background-image: url(bg.jpg);
+	 background-size: 1500px 1000px;
+	 background-attachment: scroll;
+	 
+}
+
+.kategoriler {
+	width:1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.basarili {
+	margin:auto;}
+	
+	.basarili img {
+		margin-top:45px;
+		margin-right:20px;
+		
+	}
+	.basarili h2 {
+		color:#034b59;
+		font-size: 40px;
+		text-shadow: 0 0 1px maroon;
+		letter-spacing:1.5px;
+	}
+	.basarisiz {
+	margin:auto;}
+	
+	
+	.basarisiz h2 {
+		line-height:60px;
+		letter-spacing:1.5px;
+		color:#034b59;
+		font-size: 40px;
+		text-shadow: 0 0 1px maroon;
+	}
+	
+	.basarisiz img {
+		margin-top:30px;
+		animation: animasyonum 1.5s infinite ease-in-out alternate;
+		width:225px;
+		height:225px;
+	}
+	@keyframes animasyonum {
+    from {
+        width:225px;
+		height:225px;
+    }
+    to {
+        width:300px;
+		height:300px;
+    }
+	}
+
+	.cik {margin:auto;}
+	.cik h2 {
+		margin-top:40px;
+		color:#034b59;
+		font-size: 40px;
+		text-shadow: 0 0 1px maroon;
+		letter-spacing:1.5px;
+	}
+	.cik img {
+		width:355px;
+		height:290px;
+		margin-top:50px;
+	}
+
+	.iceriksil h2 {
+		margin-top:40px;
+		color:#309c29;
+		font-size: 60px;
+		text-shadow: 0 0 1px #28284a;
+		letter-spacing:1.5px;
+	}
+	.iceriksil img {
+		width:275px;
+		height:275px;
+		margin-top:50px;
+	}
+	.iceriksil {margin:auto;}
+	.textt {
+		width: 360px;
+		background: #fff;
+		color: #a3a3a3;
+		font: inherit;
+		box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .3);
+		border: 0;
+		outline: 0;
+		padding: 18px 18px;
+		margin-top:10px;
+		margin-bottom:5px;
+	}
+	.btnn {
+		display: inline-block;
+	background: transparent;
+	color: inherit;
+	font: inherit;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	transition: all 200ms ease-in;
+	cursor: pointer;
+	background: #7f8ff4;
+		color: #fff;
+		box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+		border-radius: 2px;
+		padding: 12px 36px;
+	}
+	
+	.btnn:active {
+		
+		background: #7f8ff4;
+			box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+	}
+.ortala {
+  margin-left: 450px;
+}
+
